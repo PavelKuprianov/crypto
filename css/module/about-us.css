@@ -28,7 +28,19 @@
 @media (max-width: 1024px) {
   .about-as__container {
     flex-direction: column;
-    gap: 20px;
+    align-items: center;
+    gap: 80px;
+  }
+}
+
+@media (max-width: 860px) {
+  .about-as__container {
+    gap: 40px;
+  }
+
+  .about-as__title {
+    font-size: 30px;
+    line-height: 36px;
   }
 }
 
