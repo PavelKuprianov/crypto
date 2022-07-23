@@ -1,0 +1,75 @@
+.advantage__list-btn {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  margin-bottom: 54px;
+}
+
+.advantage__button {
+  /* width: 180px;
+  height: 47px; */
+  padding: 10px 36px;
+  background-color: #68B7FF;
+  border-radius: 20px;
+  border: 1px solid transparent;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #FFFFFF;
+  transition-property: border-color, background-color;
+  transition-duration: 0.36s;
+  transition-timing-function: ease-in-out;
+}
+
+.advantage__button:hover {
+  border-color: #1C88EB;
+}
+
+.advantage__button_active, 
+.advantage__button:active {
+  border-color: #1C88EB;
+  background-color: #1C88EB;
+}
+
+.advantage__item-content {
+  max-width: 640px;
+  margin: 0 auto;
+  display: none;
+  gap: 40px;
+  font-family: 'IBM Plex Sans';
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.advantage__item-content_active {
+  display: flex;
+}
+
+.advantage__item-content:before {
+  content: '';
+  flex-shrink: 0;
+  width: 100px;
+  height: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.advantage__item-content_convenience:before {
+  background-image: url('../../images/shester.svg');
+}
+
+.advantage__item-content_speed:before {
+  background-image: url('../../images/speed.svg');
+}
+
+.advantage__item-content_quality:before {
+  background-image: url('../../images/star.svg');
+}
+
+.advantage__item-content_security:before {
+  background-image: url('../../images/security.svg');
+}
+
